@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <style>
+    table tr td{
+      font-size: 20px;
+    }
+    input{
+      font-size:20px;
+    }
+  </style>
+</head>
+<body background="img/bg.jpg">
+
+  <table border="0"  align="center" style="margin-top:30px;" width="800">
+      <form action="">
+        <tr>
+          <td colspan="3"><img src="img/welcome.jpeg" alt="" width="800px" height="150px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center" height="50"><b><u>Sign In Here</u></b></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">First Name</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="text" name="FName" size="40" placeholder="First name" value="" required></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">Last Name</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="text" name="LName" size="40" placeholder="Last name" value="" required></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">User Email</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="email" name="UserEmail" size="40" placeholder="Enter Your Email" value="" required></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">Password</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="password" name="Password" size="40" placeholder="Type Password" value="" required></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">Re-Password</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="password" name="RePassword" size="40" placeholder="Re type Password" value="" required></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">Date Of Birth</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="date" name="dateOfBrith" size="40" value="" required></td>
+        </tr>
+        <tr>
+          <td width="200" height="50">Gender</td>
+          <td width="100" height="50">:</td>
+          <td width="500" height="50"><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</td>
+        </tr>
+        <tr>
+          <td colspan="3"><input type="checkbox" name="agree">I have agreed to the all terms & Condition</td>
+        </tr>
+        <tr>
+          <td colspan="3"height="60" align="right"><input type="reset" value="Reset"> <input type="submit" value="Sign In"></td>
+        </tr>
+        <tr>
+          <td colspan="3"><a href="index.html" style="display:block; float: left;">Already have an Account ?</a> <a href="forget.html"  style="display:block; float: right;">Forget User Name / Password?</a></td>
+          <!-- <td width="300" align="right"></td> -->
+        </tr>
+      </form>
+  </table>
+  
+</body>
+</html>
